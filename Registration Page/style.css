@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(124, 203, 208);
+    box-sizing: border-box;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.form{
+    margin-left: 12%;
+   
+}
+
+.name{
+    max-width: 450px;
+    font-size: 25px;
+    margin:20px 0 0 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+}
+
+.name input{
+    font-size: 25px;
+    background: transparent;
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(5, 5, 5);
+}
+.gender{
+    max-width: 450px;
+    font-size: 25px;
+    margin:10px 0 10px 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+   
+}
+
+.email{
+    max-width: 450px;
+    font-size: 25px;
+    margin:20px 0 10px 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+   
+}
+.email input{
+    font-size: 25px;
+    background: transparent;
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(5, 5, 5);
+}
+
+.qualification{
+    max-width: 450px;
+    font-size: 25px;
+    margin:20px 0 10px 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+   
+}
+.qualification input{
+    font-size: 25px;
+    background: transparent;
+    padding: 3px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(5, 5, 5);
+}
+
+.contect{
+    max-width: 450px;
+    font-size: 25px;
+    margin:20px 0 10px 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+}
+.contect input{
+    font-size: 25px;
+    background: transparent;
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(5, 5, 5);
+}
+
+.skills{
+    max-width: 450px;
+    font-size: 25px;
+    margin:20px 0 10px 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+}
+
+
+button.b1{
+    margin-left: 15%;
+    padding: 10px;
+    font-size: 20px;
+}
+button.b2{
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button.b1:hover{
+    background: rgb(3, 249, 3);
+    color: white;
+}
+
+button.b2:hover{
+    background: red;
+    color: white;
+}
