@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form PP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registraion Form</h1>
+    <div class="form">
+       <div class="name">
+       Name: <input type="text" id="name" placeholder="student name"></div><br>
+       <div class="gender" id="gen">Gender: <label for="101">
+        <input type="radio" name="class" id="101">Male</label>
+        <label for="102">
+        <input type="radio"  name="class" id="102"> Female</label>
+       <label for="103">
+        <input type="radio" name="class" id="103"> Transgender </label>
+       <br></div>
+        <div class="email">
+        Email: <input type="email" id="email" placeholder="email"><br>
+        </div>
+
+     <div class="contect">Contect : <input type="number" id="phone" placeholder="mobile no"><br>
+     </div>
+     <div class="skills" id="skil">
+        Skills:<label for="104">
+        <input type="radio" name="html"  id="104">HTML</label>
+        <label for="105">
+        <input type="radio" name="css"  id="105">  CSS </label>
+       <label for="106">
+        <input type="radio" name="js" id="106"> JAVA SCRIPT</label>
+      </div> 
+    
+    <button class="b1" onclick="enroll()" id="enroll">Enroll Student</button>
+    <button class="b2" onclick="reset()" id="reset">Reset</button>
+   </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
